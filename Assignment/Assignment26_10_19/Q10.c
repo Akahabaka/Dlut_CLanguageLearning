@@ -21,6 +21,7 @@ void Solve(void)
 
 int main(void)
 {
+    int a;
     Solve();
     return 0;
 }
