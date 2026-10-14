@@ -11,17 +11,16 @@ void Solve(void)
         sum+=a[pin];
         n/=10;
     }
-    for(int i=pin;i>=0;i--)
+    for(int i=pin;i>=1;i--)
     {
         printf("%d", a[i]);
-        if(i!=0) printf("+");
+        if(i!=1) printf("+");
     }
     printf("=%d", sum);
 }
 
 int main(void)
 {
-    int a;
     Solve();
     return 0;
 }
