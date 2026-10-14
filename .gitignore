@@ -1,1 +1,2 @@
-*.exe
+/Assignment/**/*.exe
+/Practice/**/*.exe
