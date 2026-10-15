@@ -24,5 +24,5 @@ int main(void)
     Solve();
     return 0;
 }
-//gcc Q10.c -o Q10
+//gcc Assignment/Assignment26_10_19/Q10.c -o Q10
 //.\Q10.exe
