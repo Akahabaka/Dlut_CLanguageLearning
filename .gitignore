@@ -1,1 +1,9 @@
 *.exe
+
+# Linux build artifacts
+Q10
+a.out
+*.o
+*.a
+*.so
+*.out
