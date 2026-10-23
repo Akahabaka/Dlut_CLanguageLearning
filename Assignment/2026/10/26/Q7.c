@@ -1,15 +1,13 @@
-#include<stdio.h>
-#define MAX 100
+#include <stdio.h>
+#define MAX 5
 
 void Solve(void)
 {
-    int a[MAX], temp=0;
+    int a[MAX], temp = 0;
     printf("Enter the figures: \n");
     for (int i = 0; i < MAX; i++)
-        if(scanf("%c", &a[i])!=1)
-            break;
-        temp++;
-    for (int i = temp-1; i >= 0; i--)
+        scanf("%c", &a[i]);
+    for (int i = MAX - 1; i >= 0; i--)
         printf("%c", a[i]);
 }
 
@@ -19,5 +17,5 @@ int main(void)
     return 0;
 }
 
-//gcc Q7.c -o Q7
+// gcc Q7.c -o Q7
 //.\Q7.exe
