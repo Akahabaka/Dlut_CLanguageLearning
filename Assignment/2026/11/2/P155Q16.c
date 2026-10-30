@@ -1,12 +1,12 @@
 #include<stdio.h>
 
-void Solve(double [][]);
+void Solve(double [][6]);
 void Selection(double [], int);
 void swap(int *, int *);
 
 int main(void)
 {
-    double a[4][6];
+    double a[4][6]={0};
     for(int i=0;i<3;i++)
     {
         for(int j=0;j<5;j++)
@@ -41,7 +41,8 @@ void Solve(double a[][6])
 
 void Selection(double a[], int len)
 {
-    int temp, pin, c;
+    int pin;
+    double temp;
     for(int i=0;i<len-1;i++)
     {
         temp=a[i];pin=i;
@@ -61,12 +62,12 @@ void Selection(double a[], int len)
     if(len==3)
     {
         for(int i=0;i<len;i++)
-            printf("%d ", a[i]);
+            printf("%f ", a[i]);
     }
     else
     {
         for(int i=len-1;i>=0;i--)
-            printf("%d ", a[i]);
+            printf("%f ", a[i]);
     }
 }
 
